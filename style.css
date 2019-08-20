@@ -10,17 +10,6 @@ html, body {
 
 }
 
-.name {
-  font-family: 'Roboto', sans-serif;
-  align-items: center;
-  margin-bottom: 2px;
-}
-
-.subtitle {
-  font-family: 'Roboto', sans-serif;
-  align-items: center;
-  margin-bottom: 4px;
-}
 
 .wrapper {
   background-color: white;
