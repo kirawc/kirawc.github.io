@@ -40,7 +40,7 @@ footer, header, hgroup, menu, nav, section {
 a{
 	text-decoration:none;
 	text-transform: none;
-	color: #2E86C1;
+	color: DarkCyan; 
 }
 
 body {
