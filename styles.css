@@ -133,6 +133,13 @@ h1.name {
 	height: 10px;
 }
 
+.sections2 {
+	vertical-align: top;
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+}
+
 .section-title {
 	font-size: 20px;
 	font-weight: 500;
