@@ -15,7 +15,7 @@ body {
 }
 
 .block2 {
-  width: 500px;
+  width: 350px;
   margin: 20px;
   padding: 20px;
   background-color: #ECF7FF;
@@ -28,6 +28,8 @@ body {
   margin: 20px;
   font-size: 15px;
   display: none;
+	padding: 20px;
+
 }
 
 .block4 {
@@ -40,8 +42,7 @@ body {
 }
 
 .subhead {
-  font-size: 25px;
-  font-style: italic;
+  font-size: 20px;
   color:   #5D6D7E;
 }
 
