@@ -32,9 +32,9 @@ function gohome(){
 }
 
 function showlinks(){
+  $(".block5").show(); // hide links
   $(".block2").hide(); // show bio
   $(".block3").hide(); // hide publication list
   $(".block4").hide(); // hide cv frame
-  $(".block5").show(); // hide links
 
 }
