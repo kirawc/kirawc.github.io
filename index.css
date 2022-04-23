@@ -40,6 +40,11 @@ body {
 
 .block5 {
   display: none;
+	width: 500px;
+	margin: 20px;
+	padding: 20px;
+	font-size: 15px;
+
 }
 
 .name {
