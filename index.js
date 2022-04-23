@@ -31,7 +31,7 @@ function gohome(){
 
 }
 
-function gohome(){
+function showlinks(){
   $(".block2").hide(); // show bio
   $(".block3").hide(); // hide publication list
   $(".block4").hide(); // hide cv frame
