@@ -38,6 +38,10 @@ body {
   display: none;
 }
 
+.block5 {
+  display: none;
+}
+
 .name {
   font-size: 35px;
   color: #75A4BE;
