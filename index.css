@@ -10,19 +10,35 @@ body {
 
 }
 
+.flex-container {
+  display: flex;
+}
+
+
 .block1 {
-  width: 500px;
+  width: 600px;
   margin: 20px;
 
 }
 
 .block2 {
-  width: 500px;
+  width: 600px;
   margin: 20px;
   padding: 20px;
-  background-color: #ECF7FF;
   font-size: 15px;
 
+}
+
+.intro {
+  width: 400px;
+  margin-left: 30px;
+	margin-top: 0px;
+  font-size: 15px;
+
+}
+
+.img {
+	border-radius: 50%;
 }
 
 .block3 {
@@ -36,14 +52,11 @@ body {
 
 .block4 {
   display: none;
-}
-
-.block5 {
-  display: none;
-	width: 500px;
+	width: 800px;
 	margin: 20px;
-	padding: 20px;
 	font-size: 15px;
+	padding: 20px;
+
 
 }
 
@@ -71,4 +84,21 @@ a.button {
   background-color: #F1F1F1;
   color: #5A5A5A;
   text-decoration: none;
+}
+
+a:link {
+    color: #5D6D7E;
+		text-decoration: none;
+
+}
+
+a:hover {
+		text-decoration: none;
+		font-weight:bold;
+
+}
+
+a:visited {
+    color: #75A4BE;
+		text-decoration: none;
 }
