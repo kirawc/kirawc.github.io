@@ -26,3 +26,12 @@ function gohome(){
   $(".block4").hide(); // hide projects
 
 }
+
+function toggleInfo(id) {
+    const infoBox = document.getElementById(id);
+    if (infoBox.style.display === "block") {
+          infoBox.style.display = "none";
+    } else {
+          infoBox.style.display = "block";
+    }
+}
