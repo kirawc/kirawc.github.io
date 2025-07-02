@@ -10,6 +10,81 @@ body {
 
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .nav, .sidebar {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 700px) {
+  body {
+    font-size: 15px;
+    padding-left: 2vw;
+    max-width: 100vw;
+    padding-top: 2vw;
+  }
+  .block1, .block2, .block3, .block4 {
+    width: 98vw !important;
+    max-width: 100vw;
+    margin: 8px 0 !important;
+    padding: 10px 2vw !important;
+  }
+  .name {
+    font-size: 1.3em;
+  }
+  .subhead {
+    font-size: 1em;
+  }
+  .linksbox {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  a.button {
+    display: block;
+    margin: 8px auto;
+    width: 90%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .flex-container {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .intro {
+    width: 95vw;
+    margin-left: 0;
+    font-size: 1em;
+    padding: 0 2vw;
+  }
+  .image {
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+  }
+  .image img, .img {
+    width: 120px !important;
+    max-width: 60vw;
+    height: auto;
+    border-radius: 50%;
+  }
+  .publications, .projects {
+    font-size: 0.98em;
+    padding: 0 2vw;
+  }
+}
+
 .flex-container {
   display: flex;
 }
@@ -42,7 +117,7 @@ body {
 }
 
 .block3 {
-  width: 600px;
+  width: 500px;
   margin: 20px;
   font-size: 15px;
   display: none;
@@ -81,7 +156,7 @@ a.button {
   border: none;
   padding: 5px;
   margin: 2px;
-  background-color: #F1F1F1;
+  background-color: #e3e3e3;
   color: #5A5A5A;
   text-decoration: none;
 }
