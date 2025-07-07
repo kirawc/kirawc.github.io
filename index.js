@@ -4,26 +4,28 @@ $(document).ready(function(){
   $("#projbutton").click(function(){showproj()})
   $("#homebutton").click(function(){gohome()})
 
-
 });
 
 function showpubs(){
-  $(".block3").show(); // show publication list
-  $(".block2").hide(); // hide bio
-  $(".block4").hide(); // hide projects
+  $(".pub").show(); // show publication list
+  $(".intro").hide(); // hide bio
+  $(".proj").hide(); // hide projects
+    $(".sidebar").hide(); // hide sidebar
 }
 
 function showproj(){
-  $(".block4").show(); // show projects
-  $(".block2").hide(); // hide bio
-  $(".block3").hide(); // show publication list
+  $(".proj").show(); // show projects
+  $(".intro").hide(); // hide bio
+  $(".pub").hide(); // hide publication list
+  $(".sidebar").hide(); // hide sidebar
 }
 
 
 function gohome(){
-  $(".block2").show(); // show bio
-  $(".block3").hide(); // hide publication list
-  $(".block4").hide(); // hide projects
+  $(".intro").show(); // show bio
+    $(".sidebar").show(); // show sidebar
+  $(".pub").hide(); // hide publication list
+  $(".proj").hide(); // hide projects
 
 }
 
